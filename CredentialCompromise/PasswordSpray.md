@@ -15,7 +15,7 @@ The Azure Active Directory Diagnostics settings have been configured to send Sig
 2. Using one of the demo user accounts provided attempt to login to https://portal.azure.com five or more times with the wrong password
 > [!NOTE]
 > This may take up to 10 minutes so failed login attempts will be pre-staged by instructors
-4. Using one of the SOC analyst accounts provided login to [Microsoft Entra admin Center](https://entra.microsoft.com/)
+4. Using one of the demo user accounts provided login to [Microsoft Entra admin Center](https://entra.microsoft.com/)
 5. In the Microsoft Entra admin center go to Sign-in events by clicking on Identity > Monitoring & health > Sign-in logs
 6. Add a filter to look for our demo user that we tried to login to the portal with the wrong password five or more times.
 7. Click on Add Filters, select User and click Apply.<br />
