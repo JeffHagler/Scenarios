@@ -40,6 +40,9 @@ SigninLogs
 
 ## Post Condition:
 
+> [!NOTE]
+> Instructor led
+
 Generate an incident in Sentinel by creating an analytic rule to generate an incident when the above indicator of compromise occurs.
 
 1. Under Sentinel > Analytics - Create a Scheduled query rule
