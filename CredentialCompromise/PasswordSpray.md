@@ -2,7 +2,7 @@
 
 Cited Resources:
 -----------------
-[Microsoft Security Blog: Protecting your organization against password spray attacks](https://www.microsoft.com/en-us/security/blog/2020/04/23/protecting-organization-password-spray-attacks/)
+[Microsoft Security Blog: Protecting your organization against password spray attacks](https://www.microsoft.com/en-us/security/blog/2020/04/23/protecting-organization-password-spray-attacks/) <br />
 [Error code lookup tool](https://login.microsoftonline.com/error)
 
 Assumptions:
