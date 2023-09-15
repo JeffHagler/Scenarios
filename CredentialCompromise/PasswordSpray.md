@@ -13,20 +13,22 @@ The Azure Active Directory Diagnostics settings have been configured to send Sig
 ## Instructions:
 1. Open a new InPrivate window in Microsoft Edge
 2. Using one of the demo user accounts provided attempt to login to https://portal.azure.com five or more times with the wrong password
-3. Using one of the SOC analyst accounts provided login to [Microsoft Entra admin Center](https://entra.microsoft.com/)
-4. In the Microsoft Entra admin center go to Sign-in events by clicking on Identity > Monitoring & health > Sign-in logs
-5. Add a filter to look for our demo user that we tried to login to the portal with the wrong password five or more times.
-6. Click on Add Filters, select User and click Apply.<br />
+> [!NOTE]
+> This may take up to 10 minutes so failed login attempts will be pre-staged by instructors
+4. Using one of the SOC analyst accounts provided login to [Microsoft Entra admin Center](https://entra.microsoft.com/)
+5. In the Microsoft Entra admin center go to Sign-in events by clicking on Identity > Monitoring & health > Sign-in logs
+6. Add a filter to look for our demo user that we tried to login to the portal with the wrong password five or more times.
+7. Click on Add Filters, select User and click Apply.<br />
 ![image](https://github.com/Tungsten66/Scenarios/assets/40893034/8bd0cf43-72c3-4fd9-8ba8-f1dfb97b3b0f)
-7. Type the username into field and click Apply <br />
+8. Type the username into field and click Apply <br />
 ![image](https://github.com/Tungsten66/Scenarios/assets/40893034/9f1ac69a-6adb-42dd-bfbf-f5708dbdc199)
-8. See all the Failures for the demo user
+9. See all the Failures for the demo user
 ![image](https://github.com/Tungsten66/Scenarios/assets/40893034/526964ef-a9fd-43dd-b89b-e525f23328aa)
-9. Click on one of the failures and capture the Sign-in error code
+10. Click on one of the failures and capture the Sign-in error code
 ![image](https://github.com/Tungsten66/Scenarios/assets/40893034/4ef8f046-1478-4a6c-b275-ffbc0148f561)
-10. With the SOC analyst account login to https://portal.azure.com/
-11. Go to Sentinel > Logs
-12. Now write the KQL to search for users that have tried to login into the Azure Portal five or more times using the previously captured Sign-in error code
+11. With the SOC analyst account login to https://portal.azure.com/
+12. Go to Sentinel > Logs
+13. Now write the KQL to search for users that have tried to login into the Azure Portal five or more times using the previously captured Sign-in error code
 ```console
 SigninLogs
 | where AppDisplayName == "Azure Portal"
