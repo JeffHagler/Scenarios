@@ -54,4 +54,3 @@ Generate an incident in Sentinel by creating an analytic rule to generate an inc
 ![image](https://github.com/Tungsten66/Scenarios/assets/40893034/a17621b0-193b-4fae-817d-6d5a22857f8f)
 4. Review new incident
 ![image](https://github.com/Tungsten66/Scenarios/assets/40893034/c4d72e71-db17-4ec0-980c-980ba5010338)
-![image](https://github.com/Tungsten66/Scenarios/assets/40893034/8633ee22-ecbd-4548-b51a-612520eff785)
