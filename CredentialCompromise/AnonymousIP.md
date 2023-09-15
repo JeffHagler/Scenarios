@@ -14,7 +14,7 @@ A login was attempted from a Tor Browser to simulate anonymous IP addresses.
 ![image](https://github.com/Tungsten66/Scenarios/assets/40893034/62418942-d780-48d5-b5eb-4d9203085d73)
 4. Click Identity Protection <br />
 ![image](https://github.com/Tungsten66/Scenarios/assets/40893034/6e551c2c-19e0-43dc-9752-e5c469269418)
-5. Go to Risky sign-ins  <br />
+5. Go to Risk Detections  <br />
 Enter image here
 6. Click on and review the user  <br />
 Enter image here
