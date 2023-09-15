@@ -24,7 +24,7 @@ A login was attempted from a Tor Browser to simulate anonymous IP addresses.
 > [!NOTE]
 > Instructor led
 
-Now lets review how an Incident can be generated in Sentinel by going to Azure Portal https://azure.portal.com
+Now lets review how an Incident can be generated in Sentinel by going to Azure Portal https://portal.azure.com
 1. Go to Sentinel > Analytics
 2. Go to "Rule templates" and search for "Identity Protection"
 3. Select and create the rule called "Create incidents based on Azure Active Directory Identity Protection alerts"
