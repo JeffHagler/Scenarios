@@ -27,8 +27,11 @@ Enter image here
 > Instructor led
 
 Now lets review how an Incident can be generated in Sentinel by going to Azure Portal https://azure.portal.com
-1. Go to Sentinel > Analytics - Click on Rule templates and search for "Identity" and select Create incident based on Azure Active Directory and click on Create rule <br />
-![image](https://github.com/Tungsten66/Scenarios/assets/40893034/98ad7e32-623f-4840-9d92-722dbd2a5896)
-2. Go to Sentinel > Incidents to review the new incidents
-3. 
+1. Go to Sentinel > Analytics
+2. Go to "Rule templates" and search for "Identity Protection"
+3. Select and create the rule called "Create incidents based on Azure Active Directory Identity Protection alerts"
+4. Accept all defaults and create the rule in the wizard <br />
+![image](https://github.com/Tungsten66/Scenarios/assets/40893034/3cc228ce-0c85-4b44-8c11-dc91551e85d2)
+3. Go to Sentinel > Incidents to review the new incidents
+4. 
 
