@@ -4,6 +4,7 @@
 [Microsoft: Anonymous IP address](https://learn.microsoft.com/en-us/azure/active-directory/identity-protection/howto-identity-protection-simulate-risk#anonymous-ip-address) <br />
 
 ## Assumptions:
+A login was attempted from a Tor Browser to simulate anonymous IP addresses.
 
 ## Instructions:
 1. Using one of the SOC analyst accounts provided login to [Microsoft Entra admin Center](https://entra.microsoft.com/)
