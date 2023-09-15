@@ -31,5 +31,4 @@ Now lets review how an Incident can be generated in Sentinel by going to Azure P
 4. Accept all defaults and create the rule in the wizard <br />
 ![image](https://github.com/Tungsten66/Scenarios/assets/40893034/3cc228ce-0c85-4b44-8c11-dc91551e85d2)
 3. Go to Sentinel > Incidents to review the new incidents
-4. 
 
