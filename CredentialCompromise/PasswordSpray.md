@@ -1,18 +1,16 @@
 # Password Spray
 
-Cited Resources:
------------------
+## Cited Resources:
 [Microsoft Security Blog: Protecting your organization against password spray attacks](https://www.microsoft.com/en-us/security/blog/2020/04/23/protecting-organization-password-spray-attacks/) <br />
 [Error code lookup tool](https://login.microsoftonline.com/error)
 
-Assumptions:
-------------
+## Assumptions:
+
 The Azure Active Directory solution is installed from the Sentinel Content hub
 The Azure Active Directory Diagnostics settings have been configured to send SignInLogs to the Sentinel Log Analytics workspace
 
 
-Instructions:
---------------
+## Instructions:
 1. Open a new InPrivate window in Microsoft Edge
 2. Using one of the demo user accounts provided attempt to login to https://portal.azure.com five or more times with the wrong password
 3. Using one of the SOC analyst accounts provided login to [Microsoft Entra admin Center](https://entra.microsoft.com/)
@@ -40,8 +38,7 @@ SigninLogs
 
 
 
-Post Condition:
-----------------
+## Post Condition:
 
 Create an analytic rule to generate an incident when the above indicator of compromise occurs.
 
