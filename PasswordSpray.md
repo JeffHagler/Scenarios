@@ -6,7 +6,7 @@
 
 ## Assumptions:
 
-The Azure Active Directory solution is installed from the Sentinel Content hub
+The Azure Active Directory solution is installed from the Sentinel Content hub <br />
 The Azure Active Directory Diagnostics settings have been configured to send SignInLogs to the Sentinel Log Analytics workspace
 
 
