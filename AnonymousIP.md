@@ -5,7 +5,7 @@
 
 ## Assumptions:
 A login was attempted from a Tor Browser to simulate anonymous IP addresses.  <br />
-[License requirements:](https://learn.microsoft.com/en-us/azure/active-directory/identity-protection/overview-identity-protection#license-requirements)
+[License requirements:](https://learn.microsoft.com/en-us/azure/active-directory/identity-protection/overview-identity-protection#license-requirements) Microsoft Entra ID P2 (Azure Active Directory P2)
 
 ## Instructions:
 1. Using one of the SOC analyst accounts provided login to [Microsoft Entra admin Center](https://entra.microsoft.com/)
