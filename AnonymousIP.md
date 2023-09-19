@@ -1,7 +1,7 @@
 # Anonymous IP walkthrough
 
 ## Cited Resources:
-[Microsoft: Anonymous IP address](https://learn.microsoft.com/en-us/azure/active-directory/identity-protection/howto-identity-protection-simulate-risk#anonymous-ip-address) <br />
+[Microsoft: Anonymous IP address Risk Protection](https://learn.microsoft.com/en-us/azure/active-directory/identity-protection/howto-identity-protection-simulate-risk#anonymous-ip-address) <br />
 
 
 ## Assumptions:
